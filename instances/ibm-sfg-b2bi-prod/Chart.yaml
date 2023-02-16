@@ -9,5 +9,5 @@ dependencies:
     repository: https://charts.cloudnativetoolkit.dev
   - name: ibm-sfg-prod
     version: 2.1.0
-    repository: https://github.com/IBM/charts/blob/master/repo/ibm-helm
+    repository: https://github.com/IBM/charts/blob/master/repo/ibm-helm/ibm-sfg-prod-2.1.0.tgz
 
