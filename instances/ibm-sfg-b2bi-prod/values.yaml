@@ -2,7 +2,7 @@ service-account:
   name: b2bi
   create: false
   sccs: ["anyuid"]
-
+UPGRADE_COMPATIBILITY_VERIFIED: true
 ibm-sfg-prod:
   global:
     image:
