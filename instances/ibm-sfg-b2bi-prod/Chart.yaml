@@ -10,3 +10,4 @@ dependencies:
   - name: ibm-sfg-prod
     version: 2.0.4
     repository: https://hollisc.github.io/gitops-testing
+

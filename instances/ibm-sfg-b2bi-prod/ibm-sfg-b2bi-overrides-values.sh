@@ -4,8 +4,8 @@
 
 NS="b2bi-prod"
 
-SFG_REPO=${SFG_REPO:-"cp.icr.io/cp/ibm-b2bi/b2bi"}
-SFG_TAG=${SFG_TAG:-"6.1.2.0"}
+SFG_REPO=${SFG_REPO:-"cp.icr.io/cp/ibm-sfg/sfg"}
+SFG_TAG=${SFG_TAG:-"6.1.0.0"}
 SFG_PULLSECRECT=${SFG_PULLSECRECT:-"ibm-entitlement-key"}
 APP_RESOURCES_PVC_ENABLED=${APP_RESOURCES_PVC_ENABLED:-"true"}
 APP_DOCUMENTS_PVC_ENABLED=${APP_DOCUMENTS_PVC_ENABLED:-"true"}
