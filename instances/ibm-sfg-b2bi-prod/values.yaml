@@ -37,7 +37,7 @@ ibm-sfg-prod:
     runAsUser: 1010
   dataSetup:
     enabled: false
-    upgrade: false
+    upgrade: true
   env:
     tz: "UTC"
     license: "accept"
@@ -48,7 +48,8 @@ ibm-sfg-prod:
     #setup.cfg configuration starts here. Property names must follow camelCase format.
   setupCfg:
     #Upgrade
-    #upgrade: false
+    upgrade: true
+    UPGRADE_COMPATIBILITY_VERIFIED: true
     basePort: 50000
     #License - specify values as true/false
     licenseAcceptEnableSfg: true
